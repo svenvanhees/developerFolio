@@ -4,38 +4,42 @@
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  title: "Hi all I'm Saad",
+  title: "Hi, ik ben Sven",
   subTitle:
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+    "Een Full Stack Software Developer 🚀 met ervaing in het maken van Web en Mobiele applicaties met Laravel / JavaScript / Vuejs / Nodejs en meer gave frameworks",
+  resumeLink: ""
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "https://github.com/svenvanhees",
+  linkedin: "https://www.linkedin.com/in/svenvanhees/",
+  gmail: "sven@vanhees.dev",
+  gitlab: "",
+  facebook: ""
 };
 
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
+  title: "Wat ik doe",
+  subTitle: "FULL STACK ONTWIKKELAAR DIE ELLKE TECH STACK WILT ONTDEKKEN",
   skills: [
-    "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-    "⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks",
-    "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    "⚡ Ontwikkel gebruiksvriendelijke front / back ends voor het web en mobiel",
+    "⚡ Single Page Applications ( SPA ) van hoog kwaliteit",
+    "⚡ Intergratie met third party services zoals Stripe / Azure / Docker",
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "laravel",
+      fontAwesomeClassname: "fab fa-laravel"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -45,24 +49,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "scss",
+      fontAwesomeClassname: "fab fa-scss"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "yarn",
+      fontAwesomeClassname: "fab fa-yarn"
     },
     {
       skillName: "npm",
@@ -73,16 +73,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "microsoft",
+      fontAwesomeClassname: "fab fa-microsoft"
     },
     {
       skillName: "docker",
@@ -97,33 +89,29 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "Laravel",  //Insert stack or technology you have experience in
+      progressPercentage: "85%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "VueJS",
+      progressPercentage: "78%"
     },
     {
-      Stack: "Programming",
+      Stack: "MySQL/MariaDB",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "Docker",
+      progressPercentage: "65%"
     }
   ]
-};
-
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
-
-const openSource = {
-  githubConvertedToken: "Your Github Converted Token",
-  githubUserName: "Your Github Username"
 };
 
 
 // Some Big Projects You have worked with your company
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Werkzaam bij",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELP TO CREATE THEIR TECH",
   projects: [
     {
@@ -136,6 +124,15 @@ const bigProjects = {
     }
   ]
 };
+
+/* Your Open Source Section to View Your Github Pinned Projects
+To know how to get github key look at readme.md */
+
+const openSource = {
+  githubConvertedToken: "OTQ4N2VlNGYwNTBhNjY5NmEwYTVlNzhjYTRmYzM5YzA0MTY5NDE0Mw==",
+  githubUserName: "svenvanhees"
+};
+
 
 // Your Achievement Section Include Your Certification Talks and More
 
@@ -227,17 +224,16 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: "Contact Me ☎️",
-  subtitle: "Discuss a project or just want to say hi my inbox is open for all",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  title: "Neem contact op ☎️",
+  subtitle: "Idee voor een project of gewoon hallo zeggen, mijn inbox is open voor iedereen",
+  email_address: "sven@vanhees.dev"
 };
 
 //Twitter Section
 
 const twitterDetails = {
 
-  userName : "twitter"//Replace "twitter" with your twitter username without @
+  userName : "svenvanhees"//Replace "twitter" with your twitter username without @
   
 };
 export { greeting, socialMediaLinks, skillsSection, techStack, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};

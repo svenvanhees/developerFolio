@@ -7,7 +7,7 @@ var widthScreen=window.screen.width;
 export default function Twitter() {
 	if (twitterDetails.userName){
 		return (
-            <div class="tw-main-div" id="twitter">       
+            <div className="tw-main-div" id="twitter">       
 			<div className="centerContent">
 			<TwitterTimelineEmbed
 				sourceType="profile"

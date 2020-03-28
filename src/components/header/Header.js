@@ -7,7 +7,7 @@ function Header() {
       <header className="header">
         <a href="" className="logo">
           <span className="grey-color"> &lt;</span>
-          <span className="logo-name">Saad Pasta</span>
+          <span className="logo-name">Sven van Hees</span>
           <span className="grey-color">/&gt;</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
@@ -19,22 +19,13 @@ function Header() {
             <a href="#skills">Skills</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects">Projecten</a>
           </li>
           <li>
             <a href="#opensource">Open Source</a>
           </li>
           <li>
-            <a href="#blogs">Blogs</a>
-          </li>
-          <li>
-            <a href="#talks">Talks</a>
-          </li>
-          <li>
-            <a href="#achievements">Achievements</a>
-          </li>
-          <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#contact">Neem contact op</a>
           </li>
         </ul>
       </header>
