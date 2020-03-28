@@ -19,9 +19,6 @@ function Header() {
             <a href="#skills">Skills</a>
           </li>
           <li>
-            <a href="#projects">Projecten</a>
-          </li>
-          <li>
             <a href="#opensource">Open Source</a>
           </li>
           <li>
