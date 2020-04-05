@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.4a88260f.chunk.css",
-    "main.js": "/static/js/main.b5c0a85a.chunk.js",
-    "main.js.map": "/static/js/main.b5c0a85a.chunk.js.map",
+    "main.css": "/static/css/main.61373def.chunk.css",
+    "main.js": "/static/js/main.2f478c42.chunk.js",
+    "main.js.map": "/static/js/main.2f478c42.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.67941ad3.js",
     "runtime-main.js.map": "/static/js/runtime-main.67941ad3.js.map",
     "static/js/2.abe1c2e0.chunk.js": "/static/js/2.abe1c2e0.chunk.js",
     "static/js/2.abe1c2e0.chunk.js.map": "/static/js/2.abe1c2e0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.205601608b4a33ca26818198f1300654.js": "/precache-manifest.205601608b4a33ca26818198f1300654.js",
+    "precache-manifest.09f41eaabc7c8f280a28f7f78e53517e.js": "/precache-manifest.09f41eaabc7c8f280a28f7f78e53517e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.4a88260f.chunk.css.map": "/static/css/main.4a88260f.chunk.css.map",
+    "static/css/main.61373def.chunk.css.map": "/static/css/main.61373def.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
-    "static/media/contactMail.png": "/static/media/contactMail.d6d4086f.png",
-    "static/media/developerActivity.svg": "/static/media/developerActivity.59389695.svg",
-    "static/media/all.css": "/static/media/fa-solid-900.8e4a6dcc.eot",
+    "static/media/contactMail.svg": "/static/media/contactMail.6861fc5c.svg",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.7d13cad0.svg",
+    "static/media/all.css": "/static/media/fa-solid-900.c2801fb4.svg",
     "static/media/logo.svg": "/static/media/logo.25bf045c.svg",
-    "static/media/manOnTable.svg": "/static/media/manOnTable.52be3144.svg",
-    "static/media/skill.svg": "/static/media/skill.34409398.svg"
+    "static/media/manOnTable.svg": "/static/media/manOnTable.eeee8c57.svg",
+    "static/media/skill.svg": "/static/media/skill.3c2adf2a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.67941ad3.js",
     "static/js/2.abe1c2e0.chunk.js",
-    "static/css/main.4a88260f.chunk.css",
-    "static/js/main.b5c0a85a.chunk.js"
+    "static/css/main.61373def.chunk.css",
+    "static/js/main.2f478c42.chunk.js"
   ]
 }
